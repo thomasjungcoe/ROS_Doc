@@ -1,0 +1,29 @@
+[1.031s] Invoking command in '/home/tj/ros2_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tj/ros2_ws/build/cpp_parameters -- -j8 -l8
+[5.644s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.644s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[5.644s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.644s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.644s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.645s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.645s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.645s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.645s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.645s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.000s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.000s] [31mCMake Error at CMakeLists.txt:15 (install):
+[6.000s]   install TARGETS given target "DIRECTORY" which does not exist.
+[6.000s] 
+[6.000s] [0m
+[6.069s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.069s] -- Configured cppcheck include dirs: 
+[6.069s] -- Configured cppcheck exclude dirs and/or files: 
+[6.069s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.069s] -- Added test 'lint_cmake' to check CMake code style
+[6.070s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.081s] -- Added test 'uncrustify' to check C / C++ code style
+[6.081s] -- Configured uncrustify additional arguments: 
+[6.125s] -- Added test 'xmllint' to check XML markup files
+[6.136s] -- Configuring incomplete, errors occurred!
+[6.136s] See also "/home/tj/ros2_ws/build/cpp_parameters/CMakeFiles/CMakeOutput.log".
+[6.144s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[6.707s] Invoked command in '/home/tj/ros2_ws/build/cpp_parameters' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tj/ros2_ws/build/cpp_parameters -- -j8 -l8

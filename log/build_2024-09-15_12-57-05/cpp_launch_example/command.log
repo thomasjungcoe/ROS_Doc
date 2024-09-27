@@ -1,0 +1,6 @@
+Invoking command in '/home/tj/ros2_ws/build/cpp_launch_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tj/ros2_ws/launch_ws/src/cpp_launch_example -DCMAKE_INSTALL_PREFIX=/home/tj/ros2_ws/install/cpp_launch_example
+Invoked command in '/home/tj/ros2_ws/build/cpp_launch_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tj/ros2_ws/launch_ws/src/cpp_launch_example -DCMAKE_INSTALL_PREFIX=/home/tj/ros2_ws/install/cpp_launch_example
+Invoking command in '/home/tj/ros2_ws/build/cpp_launch_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tj/ros2_ws/build/cpp_launch_example -- -j8 -l8
+Invoked command in '/home/tj/ros2_ws/build/cpp_launch_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tj/ros2_ws/build/cpp_launch_example -- -j8 -l8
+Invoking command in '/home/tj/ros2_ws/build/cpp_launch_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tj/ros2_ws/build/cpp_launch_example
+Invoked command in '/home/tj/ros2_ws/build/cpp_launch_example' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tj/ros2_ws/build/cpp_launch_example

@@ -1,0 +1,27 @@
+[0.515s] Invoking command in '/home/tj/ros2_ws/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tj/ros2_ws/install/python_parameters:/home/tj/ros2_ws/install/py_srvcli:/home/tj/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/tj/ros2_ws/build/polygon_base -- -j8 -l8
+[5.326s] [100%] Built target area_node
+[6.792s] Invoked command in '/home/tj/ros2_ws/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tj/ros2_ws/install/python_parameters:/home/tj/ros2_ws/install/py_srvcli:/home/tj/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/tj/ros2_ws/build/polygon_base -- -j8 -l8
+[8.181s] Invoking command in '/home/tj/ros2_ws/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tj/ros2_ws/install/python_parameters:/home/tj/ros2_ws/install/py_srvcli:/home/tj/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/tj/ros2_ws/build/polygon_base
+[8.435s] -- Install configuration: ""
+[8.458s] -- Up-to-date: /home/tj/ros2_ws/install/polygon_base/share/polygon_base/plugins.xml
+[8.469s] -- Up-to-date: /home/tj/ros2_ws/install/polygon_base/include
+[8.469s] -- Up-to-date: /home/tj/ros2_ws/install/polygon_base/include/polygon_base
+[8.541s] -- Up-to-date: /home/tj/ros2_ws/install/polygon_base/include/polygon_base/regular_polygon.hpp
+[8.575s] -- Up-to-date: /home/tj/ros2_ws/install/polygon_base/share/ament_index/resource_index/package_run_dependencies/polygon_base
+[8.575s] -- Up-to-date: /home/tj/ros2_ws/install/polygon_base/share/ament_index/resource_index/parent_prefix_path/polygon_base
+[8.575s] -- Up-to-date: /home/tj/ros2_ws/install/polygon_base/share/polygon_base/environment/ament_prefix_path.sh
+[8.575s] -- Up-to-date: /home/tj/ros2_ws/install/polygon_base/share/polygon_base/environment/ament_prefix_path.dsv
+[8.575s] -- Up-to-date: /home/tj/ros2_ws/install/polygon_base/share/polygon_base/environment/path.sh
+[8.575s] -- Up-to-date: /home/tj/ros2_ws/install/polygon_base/share/polygon_base/environment/path.dsv
+[8.575s] -- Up-to-date: /home/tj/ros2_ws/install/polygon_base/share/polygon_base/local_setup.bash
+[8.575s] -- Up-to-date: /home/tj/ros2_ws/install/polygon_base/share/polygon_base/local_setup.sh
+[8.575s] -- Up-to-date: /home/tj/ros2_ws/install/polygon_base/share/polygon_base/local_setup.zsh
+[8.611s] -- Up-to-date: /home/tj/ros2_ws/install/polygon_base/share/polygon_base/local_setup.dsv
+[8.614s] -- Installing: /home/tj/ros2_ws/install/polygon_base/share/polygon_base/package.dsv
+[8.620s] -- Up-to-date: /home/tj/ros2_ws/install/polygon_base/share/ament_index/resource_index/packages/polygon_base
+[8.620s] -- Up-to-date: /home/tj/ros2_ws/install/polygon_base/share/ament_index/resource_index/polygon_base__pluginlib__plugin/polygon_base
+[8.621s] -- Up-to-date: /home/tj/ros2_ws/install/polygon_base/share/polygon_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.623s] -- Up-to-date: /home/tj/ros2_ws/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig.cmake
+[8.623s] -- Up-to-date: /home/tj/ros2_ws/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig-version.cmake
+[8.623s] -- Up-to-date: /home/tj/ros2_ws/install/polygon_base/share/polygon_base/package.xml
+[8.626s] Invoked command in '/home/tj/ros2_ws/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tj/ros2_ws/install/python_parameters:/home/tj/ros2_ws/install/py_srvcli:/home/tj/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/tj/ros2_ws/build/polygon_base

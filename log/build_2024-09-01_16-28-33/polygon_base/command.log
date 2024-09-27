@@ -1,0 +1,2 @@
+Invoking command in '/home/tj/ros2_ws/build/polygon_base': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tj/ros2_ws/build/polygon_base -- -j8 -l8
+Invoked command in '/home/tj/ros2_ws/build/polygon_base' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tj/ros2_ws/build/polygon_base -- -j8 -l8

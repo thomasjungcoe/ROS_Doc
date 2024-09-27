@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/home/tj/ros2_ws/launch_ws/src/cpp_launch_example/launch": No such file or
+  directory.
+
+[0m

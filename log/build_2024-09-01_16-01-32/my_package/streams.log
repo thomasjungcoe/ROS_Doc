@@ -1,0 +1,35 @@
+[0.888s] Invoking command in '/home/tj/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tj/ros2_ws/build/my_package -- -j8 -l8
+[8.597s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[10.121s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[12.045s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[12.045s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/tj/ros2_ws/src/my_package/include>
+[12.045s] -- Configured cppcheck exclude dirs and/or files: 
+[12.045s] -- Added test 'lint_cmake' to check CMake code style
+[12.045s] -- Added test 'uncrustify' to check C / C++ code style
+[12.045s] -- Configured uncrustify additional arguments: 
+[12.045s] -- Added test 'xmllint' to check XML markup files
+[12.310s] -- Configuring done
+[12.931s] -- Generating done
+[13.098s] -- Build files have been written to: /home/tj/ros2_ws/build/my_package
+[13.541s] [35m[1mConsolidate compiler generated dependencies of target my_node[0m
+[13.813s] [100%] Built target my_node
+[14.450s] Invoked command in '/home/tj/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tj/ros2_ws/build/my_package -- -j8 -l8
+[16.389s] Invoking command in '/home/tj/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tj/ros2_ws/build/my_package
+[16.805s] -- Install configuration: ""
+[16.805s] -- Up-to-date: /home/tj/ros2_ws/install/my_package/lib/my_package/my_node
+[16.805s] -- Up-to-date: /home/tj/ros2_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[16.805s] -- Up-to-date: /home/tj/ros2_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[16.806s] -- Up-to-date: /home/tj/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[16.806s] -- Installing: /home/tj/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[16.806s] -- Up-to-date: /home/tj/ros2_ws/install/my_package/share/my_package/environment/path.sh
+[16.806s] -- Installing: /home/tj/ros2_ws/install/my_package/share/my_package/environment/path.dsv
+[16.806s] -- Up-to-date: /home/tj/ros2_ws/install/my_package/share/my_package/local_setup.bash
+[16.806s] -- Up-to-date: /home/tj/ros2_ws/install/my_package/share/my_package/local_setup.sh
+[16.806s] -- Up-to-date: /home/tj/ros2_ws/install/my_package/share/my_package/local_setup.zsh
+[16.806s] -- Installing: /home/tj/ros2_ws/install/my_package/share/my_package/local_setup.dsv
+[16.806s] -- Installing: /home/tj/ros2_ws/install/my_package/share/my_package/package.dsv
+[16.806s] -- Up-to-date: /home/tj/ros2_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+[16.806s] -- Up-to-date: /home/tj/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[16.806s] -- Up-to-date: /home/tj/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[16.806s] -- Installing: /home/tj/ros2_ws/install/my_package/share/my_package/package.xml
+[17.025s] Invoked command in '/home/tj/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tj/ros2_ws/build/my_package

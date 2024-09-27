@@ -1,0 +1,150 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Found polygon_base: 0.0.0 (/home/tj/ros2_ws/install/polygon_base/share/polygon_base/cmake)
+-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/tj/ros2_ws/src/polygon_plugins/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tj/ros2_ws/build/polygon_plugins
+[ 50%] [32mBuilding CXX object CMakeFiles/polygon_plugins.dir/src/polygon_plugins.cpp.o[0m
+[01m[K/home/tj/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:6:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kpolygon_base[m[K’ has not been declared
+    6 |         class Square : public [01;31m[Kpolygon_base[m[K::RegularPolygon
+      |                               [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/tj/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:6:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[KRegularPolygon[m[K’
+    6 |         class Square : public polygon_base::[01;31m[KRegularPolygon[m[K
+      |                                             [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/tj/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:8:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kpublic[m[K’
+    8 |         [01;31m[Kpublic[m[K:
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/tj/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:8:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kpublic[m[K’
+[01m[K/home/tj/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:7:9:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+    7 |         [01;36m[K{[m[K
+      |         [01;36m[K^[m[K
+[01m[K/home/tj/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:14:31:[m[K [01;31m[Kerror: [m[Kvirt-specifiers in ‘[01m[Karea[m[K’ not allowed outside a class definition
+   14 |                 double area() [01;31m[Koverride[m[K
+      |                               [01;31m[K^~~~~~~~[m[K
+[01m[K/home/tj/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:[m[K In function ‘[01m[Kdouble polygon_plugins::area()[m[K’:
+[01m[K/home/tj/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:16:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kside_length_[m[K’ was not declared in this scope
+   16 |                         return [01;31m[Kside_length_[m[K * side_length_;
+      |                                [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/tj/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:[m[K At global scope:
+[01m[K/home/tj/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:19:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprotected[m[K’
+   19 |         [01;31m[Kprotected[m[K:
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/tj/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:23:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kpolygon_base[m[K’ has not been declared
+   23 |         class Triangle : public [01;31m[Kpolygon_base[m[K::RegularPolygon
+      |                                 [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/tj/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:23:47:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[KRegularPolygon[m[K’
+   23 |         class Triangle : public polygon_base::[01;31m[KRegularPolygon[m[K
+      |                                               [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/tj/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:25:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kpublic[m[K’
+   25 |         [01;31m[Kpublic[m[K:
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/tj/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:25:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kpublic[m[K’
+[01m[K/home/tj/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:24:9:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   24 |         [01;36m[K{[m[K
+      |         [01;36m[K^[m[K
+[01m[K/home/tj/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:31:31:[m[K [01;31m[Kerror: [m[Kvirt-specifiers in ‘[01m[Karea[m[K’ not allowed outside a class definition
+   31 |                 double area() [01;31m[Koverride[m[K
+      |                               [01;31m[K^~~~~~~~[m[K
+[01m[K/home/tj/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:[m[K In function ‘[01m[Kdouble area()[m[K’:
+[01m[K/home/tj/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:33:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kside_length_[m[K’ was not declared in this scope
+   33 |                         return 0.5 * [01;31m[Kside_length_[m[K * getHeight();
+      |                                      [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/tj/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:33:53:[m[K [01;31m[Kerror: [m[K‘[01m[KgetHeight[m[K’ was not declared in this scope
+   33 |                         return 0.5 * side_length_ * [01;31m[KgetHeight[m[K();
+      |                                                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/tj/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:[m[K In function ‘[01m[Kdouble getHeight()[m[K’:
+[01m[K/home/tj/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:38:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kside_length_[m[K’ was not declared in this scope
+   38 |                         return sqrt(([01;31m[Kside_length_[m[K * side_length_) - ((side_length_ / 2) * (side_length_ / 2)));
+      |                                      [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/tj/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:[m[K At global scope:
+[01m[K/home/tj/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:41:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprotected[m[K’
+   41 |         [01;31m[Kprotected[m[K:
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/tj/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:44:9:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   44 |         [01;31m[K}[m[K;
+      |         [01;31m[K^[m[K
+[01m[K/home/tj/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:45:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   45 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/tj/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:46[m[K:
+[01m[K/home/tj/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:48:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kpolygon_base[m[K’ does not name a type
+   48 | PLUGINLIB_EXPORT_CLASS(polygon_plugins::Square, [01;31m[Kpolygon_base[m[K::RegularPolygon)
+      |                                                 [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/tj/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:[m[K In constructor ‘[01m[K{anonymous}::ProxyExec0::ProxyExec0()[m[K’:
+[01m[K/home/tj/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:48:1:[m[K [01;31m[Kerror: [m[K‘[01m[K_base[m[K’ was not declared in this scope
+   48 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(polygon_plugins::Square, polygon_base::RegularPolygon)
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tj/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:48:1:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KregisterPlugin<{anonymous}::ProxyExec0::_derived, <expression error> >(const char [24], const char [29])[m[K’
+   48 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(polygon_plugins::Square, polygon_base::RegularPolygon)
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/tj/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:46[m[K:
+[01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Derived, class Base> void class_loader::impl::registerPlugin(const string&, const string&)[m[K’
+  210 | void [01;36m[KregisterPlugin[m[K(const std::string & class_name, const std::string & base_class_name)
+      |      [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/tj/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:46[m[K:
+[01m[K/home/tj/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:48:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+   48 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(polygon_plugins::Square, polygon_base::RegularPolygon)
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tj/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:[m[K At global scope:
+[01m[K/home/tj/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:49:41:[m[K [01;31m[Kerror: [m[K‘[01m[KTriangle[m[K’ in namespace ‘[01m[Kpolygon_plugins[m[K’ does not name a type
+   49 | PLUGINLIB_EXPORT_CLASS(polygon_plugins::[01;31m[KTriangle[m[K, polygon_base::RegularPolygon)
+      |                                         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/tj/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:49:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kpolygon_base[m[K’ does not name a type
+   49 | PLUGINLIB_EXPORT_CLASS(polygon_plugins::Triangle, [01;31m[Kpolygon_base[m[K::RegularPolygon)
+      |                                                   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/tj/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:[m[K In constructor ‘[01m[K{anonymous}::ProxyExec1::ProxyExec1()[m[K’:
+[01m[K/home/tj/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:49:1:[m[K [01;31m[Kerror: [m[K‘[01m[K_derived[m[K’ was not declared in this scope
+   49 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(polygon_plugins::Triangle, polygon_base::RegularPolygon)
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tj/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:49:1:[m[K [01;31m[Kerror: [m[K‘[01m[K_base[m[K’ was not declared in this scope
+   49 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(polygon_plugins::Triangle, polygon_base::RegularPolygon)
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tj/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:49:1:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KregisterPlugin<<expression error>, <expression error> >(const char [26], const char [29])[m[K’
+   49 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(polygon_plugins::Triangle, polygon_base::RegularPolygon)
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/tj/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:46[m[K:
+[01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Derived, class Base> void class_loader::impl::registerPlugin(const string&, const string&)[m[K’
+  210 | void [01;36m[KregisterPlugin[m[K(const std::string & class_name, const std::string & base_class_name)
+      |      [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/tj/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:46[m[K:
+[01m[K/home/tj/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:49:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   49 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(polygon_plugins::Triangle, polygon_base::RegularPolygon)
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tj/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:49:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+gmake[2]: *** [CMakeFiles/polygon_plugins.dir/build.make:76: CMakeFiles/polygon_plugins.dir/src/polygon_plugins.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/polygon_plugins.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

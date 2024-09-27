@@ -1,0 +1,18 @@
+[01m[K/home/tj/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_client.cpp:[m[K In constructor ‘[01m[Kaction_tutorials_cpp::FibonacciActionClient::FibonacciActionClient(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/tj/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_client.cpp:26:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass action_tutorials_cpp::FibonacciActionClient[m[K’ has no member named ‘[01m[Kclient_ptr_[m[K’; did you mean ‘[01m[Kclient_prt_[m[K’?
+   26 |                         this->[01;31m[Kclient_ptr_[m[K = rclcpp_action::create_client<Fibonacci>(
+      |                               [01;31m[K^~~~~~~~~~~[m[K
+      |                               [32m[Kclient_prt_[m[K
+[01m[K/home/tj/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_client.cpp:[m[K In member function ‘[01m[Kvoid action_tutorials_cpp::FibonacciActionClient::send_goal()[m[K’:
+[01m[K/home/tj/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_client.cpp:41:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass action_tutorials_cpp::FibonacciActionClient[m[K’ has no member named ‘[01m[Kclient_ptr_[m[K’; did you mean ‘[01m[Kclient_prt_[m[K’?
+   41 |                         if (!this->[01;31m[Kclient_ptr_[m[K->wait_for_action_server()) {
+      |                                    [01;31m[K^~~~~~~~~~~[m[K
+      |                                    [32m[Kclient_prt_[m[K
+[01m[K/home/tj/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_client.cpp:58:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass action_tutorials_cpp::FibonacciActionClient[m[K’ has no member named ‘[01m[Kclient_ptr_[m[K’; did you mean ‘[01m[Kclient_prt_[m[K’?
+   58 |                                 this->[01;31m[Kclient_ptr_[m[K->async_send_goal(goal_msg, send_goal_options);
+      |                                       [01;31m[K^~~~~~~~~~~[m[K
+      |                                       [32m[Kclient_prt_[m[K
+gmake[2]: *** [CMakeFiles/action_client.dir/build.make:76: CMakeFiles/action_client.dir/src/fibonacci_action_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/action_client.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,13 @@
+# Ignore all .log files
+*.log
+
+
+
+# Ignore all .env files
+.env
+
+
+
+
+# Ignore all build folder
+bulid/

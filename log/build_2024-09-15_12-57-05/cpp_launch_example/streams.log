@@ -1,0 +1,33 @@
+[0.343s] Invoking command in '/home/tj/ros2_ws/build/cpp_launch_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tj/ros2_ws/launch_ws/src/cpp_launch_example -DCMAKE_INSTALL_PREFIX=/home/tj/ros2_ws/install/cpp_launch_example
+[2.977s] -- The C compiler identification is GNU 11.4.0
+[5.789s] -- The CXX compiler identification is GNU 11.4.0
+[6.045s] -- Detecting C compiler ABI info
+[7.009s] -- Detecting C compiler ABI info - done
+[7.058s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.074s] -- Detecting C compile features
+[7.080s] -- Detecting C compile features - done
+[7.116s] -- Detecting CXX compiler ABI info
+[7.631s] -- Detecting CXX compiler ABI info - done
+[7.665s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[7.665s] -- Detecting CXX compile features
+[7.740s] -- Detecting CXX compile features - done
+[7.859s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[8.893s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[11.309s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[12.701s] -- Added test 'lint_cmake' to check CMake code style
+[12.701s] -- Added test 'xmllint' to check XML markup files
+[12.701s] -- Configuring done
+[12.755s] -- Generating done
+[12.820s] -- Build files have been written to: /home/tj/ros2_ws/build/cpp_launch_example
+[12.916s] Invoked command in '/home/tj/ros2_ws/build/cpp_launch_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tj/ros2_ws/launch_ws/src/cpp_launch_example -DCMAKE_INSTALL_PREFIX=/home/tj/ros2_ws/install/cpp_launch_example
+[13.180s] Invoking command in '/home/tj/ros2_ws/build/cpp_launch_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tj/ros2_ws/build/cpp_launch_example -- -j8 -l8
+[13.544s] Invoked command in '/home/tj/ros2_ws/build/cpp_launch_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tj/ros2_ws/build/cpp_launch_example -- -j8 -l8
+[14.715s] Invoking command in '/home/tj/ros2_ws/build/cpp_launch_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tj/ros2_ws/build/cpp_launch_example
+[14.752s] -- Install configuration: ""
+[14.752s] [31mCMake Error at cmake_install.cmake:46 (file):
+[14.752s]   file INSTALL cannot find
+[14.752s]   "/home/tj/ros2_ws/launch_ws/src/cpp_launch_example/launch": No such file or
+[14.752s]   directory.
+[14.752s] 
+[14.752s] [0m
+[15.105s] Invoked command in '/home/tj/ros2_ws/build/cpp_launch_example' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tj/ros2_ws/build/cpp_launch_example

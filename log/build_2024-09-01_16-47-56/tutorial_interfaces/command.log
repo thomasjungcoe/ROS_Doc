@@ -1,0 +1,2 @@
+Invoking command in '/home/tj/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tj/ros2_ws/build/tutorial_interfaces -- -j8 -l8
+Invoked command in '/home/tj/ros2_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tj/ros2_ws/build/tutorial_interfaces -- -j8 -l8

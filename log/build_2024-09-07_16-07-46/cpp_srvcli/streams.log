@@ -1,0 +1,23 @@
+[0.626s] Invoking command in '/home/tj/ros2_ws/build/cpp_srvcli': AMENT_PREFIX_PATH=/home/tj/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tj/ros2_ws/install/tutorial_interfaces:/home/tj/ros2_ws/install/cpp_srvcli:/home/tj/ros2_ws/install/cpp_pubsub:/home/tj/ros2_ws/install/turtlesim:/home/tj/ros2_ws/install/polygon_plugins:/home/tj/ros2_ws/install/polygon_base:/home/tj/ros2_ws/install/my_package:/home/tj/ros2_ws/install/more_interfaces:/home/tj/ros2_ws/install/custom_action_interfaces:/home/tj/ros2_ws/install/cpp_parameters:/home/tj/ros2_ws/install/python_parameters:/home/tj/ros2_ws/install/py_srvcli:/home/tj/ros2_ws/install/py_pubsub:/opt/ros/humble PYTHONPATH=/home/tj/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tj/ros2_ws/build/cpp_srvcli -- -j8 -l8
+[1.592s] [ 50%] Built target server
+[1.592s] [100%] Built target client
+[1.832s] Invoked command in '/home/tj/ros2_ws/build/cpp_srvcli' returned '0': AMENT_PREFIX_PATH=/home/tj/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tj/ros2_ws/install/tutorial_interfaces:/home/tj/ros2_ws/install/cpp_srvcli:/home/tj/ros2_ws/install/cpp_pubsub:/home/tj/ros2_ws/install/turtlesim:/home/tj/ros2_ws/install/polygon_plugins:/home/tj/ros2_ws/install/polygon_base:/home/tj/ros2_ws/install/my_package:/home/tj/ros2_ws/install/more_interfaces:/home/tj/ros2_ws/install/custom_action_interfaces:/home/tj/ros2_ws/install/cpp_parameters:/home/tj/ros2_ws/install/python_parameters:/home/tj/ros2_ws/install/py_srvcli:/home/tj/ros2_ws/install/py_pubsub:/opt/ros/humble PYTHONPATH=/home/tj/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tj/ros2_ws/build/cpp_srvcli -- -j8 -l8
+[3.003s] Invoking command in '/home/tj/ros2_ws/build/cpp_srvcli': AMENT_PREFIX_PATH=/home/tj/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tj/ros2_ws/install/tutorial_interfaces:/home/tj/ros2_ws/install/cpp_srvcli:/home/tj/ros2_ws/install/cpp_pubsub:/home/tj/ros2_ws/install/turtlesim:/home/tj/ros2_ws/install/polygon_plugins:/home/tj/ros2_ws/install/polygon_base:/home/tj/ros2_ws/install/my_package:/home/tj/ros2_ws/install/more_interfaces:/home/tj/ros2_ws/install/custom_action_interfaces:/home/tj/ros2_ws/install/cpp_parameters:/home/tj/ros2_ws/install/python_parameters:/home/tj/ros2_ws/install/py_srvcli:/home/tj/ros2_ws/install/py_pubsub:/opt/ros/humble PYTHONPATH=/home/tj/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tj/ros2_ws/build/cpp_srvcli
+[3.139s] -- Install configuration: ""
+[3.149s] -- Up-to-date: /home/tj/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[3.168s] -- Up-to-date: /home/tj/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[3.169s] -- Up-to-date: /home/tj/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[3.169s] -- Up-to-date: /home/tj/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[3.169s] -- Up-to-date: /home/tj/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[3.173s] -- Up-to-date: /home/tj/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[3.173s] -- Up-to-date: /home/tj/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[3.173s] -- Up-to-date: /home/tj/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[3.173s] -- Up-to-date: /home/tj/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[3.173s] -- Up-to-date: /home/tj/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[3.173s] -- Up-to-date: /home/tj/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[3.173s] -- Up-to-date: /home/tj/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[3.173s] -- Installing: /home/tj/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[3.174s] -- Up-to-date: /home/tj/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[3.176s] -- Up-to-date: /home/tj/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[3.176s] -- Up-to-date: /home/tj/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[3.176s] -- Up-to-date: /home/tj/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml

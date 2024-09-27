@@ -1,0 +1,22 @@
+[0.890s] Invoking command in '/home/tj/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tj/ros2_ws/install/python_parameters:/home/tj/ros2_ws/install/py_srvcli:/home/tj/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/tj/ros2_ws/build/my_package -- -j8 -l8
+[4.789s] [100%] Built target my_node
+[6.223s] Invoked command in '/home/tj/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tj/ros2_ws/install/python_parameters:/home/tj/ros2_ws/install/py_srvcli:/home/tj/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/tj/ros2_ws/build/my_package -- -j8 -l8
+[7.912s] Invoking command in '/home/tj/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tj/ros2_ws/install/python_parameters:/home/tj/ros2_ws/install/py_srvcli:/home/tj/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/tj/ros2_ws/build/my_package
+[7.997s] -- Install configuration: ""
+[7.997s] -- Up-to-date: /home/tj/ros2_ws/install/my_package/lib/my_package/my_node
+[7.997s] -- Up-to-date: /home/tj/ros2_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[8.008s] -- Up-to-date: /home/tj/ros2_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[8.108s] -- Up-to-date: /home/tj/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[8.210s] -- Up-to-date: /home/tj/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[8.210s] -- Up-to-date: /home/tj/ros2_ws/install/my_package/share/my_package/environment/path.sh
+[8.211s] -- Up-to-date: /home/tj/ros2_ws/install/my_package/share/my_package/environment/path.dsv
+[8.211s] -- Up-to-date: /home/tj/ros2_ws/install/my_package/share/my_package/local_setup.bash
+[8.211s] -- Up-to-date: /home/tj/ros2_ws/install/my_package/share/my_package/local_setup.sh
+[8.211s] -- Up-to-date: /home/tj/ros2_ws/install/my_package/share/my_package/local_setup.zsh
+[8.211s] -- Up-to-date: /home/tj/ros2_ws/install/my_package/share/my_package/local_setup.dsv
+[8.211s] -- Installing: /home/tj/ros2_ws/install/my_package/share/my_package/package.dsv
+[8.211s] -- Up-to-date: /home/tj/ros2_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+[8.214s] -- Up-to-date: /home/tj/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[8.223s] -- Up-to-date: /home/tj/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[8.223s] -- Up-to-date: /home/tj/ros2_ws/install/my_package/share/my_package/package.xml
+[8.223s] Invoked command in '/home/tj/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tj/ros2_ws/install/python_parameters:/home/tj/ros2_ws/install/py_srvcli:/home/tj/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/tj/ros2_ws/build/my_package

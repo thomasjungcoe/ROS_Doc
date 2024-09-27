@@ -1,0 +1,66 @@
+[0.266s] Invoking command in '/home/tj/ros2_ws/build/action_tutorials_cpp': AMENT_PREFIX_PATH=/home/tj/ros2_ws/install/action_tutorials_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tj/ros2_ws/install/action_tutorials_interfaces:/home/tj/ros2_ws/install/cpp_srvcli:/home/tj/ros2_ws/install/cpp_pubsub:/home/tj/ros2_ws/install/tutorial_interfaces:/home/tj/ros2_ws/install/turtlesim:/home/tj/ros2_ws/install/polygon_plugins:/home/tj/ros2_ws/install/polygon_base:/home/tj/ros2_ws/install/my_package:/home/tj/ros2_ws/install/more_interfaces:/home/tj/ros2_ws/install/custom_action_interfaces:/home/tj/ros2_ws/install/cpp_parameters:/home/tj/ros2_ws/install/python_parameters:/home/tj/ros2_ws/install/py_srvcli:/home/tj/ros2_ws/install/py_pubsub:/opt/ros/humble LD_LIBRARY_PATH=/home/tj/ros2_ws/install/action_tutorials_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tj/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/tj/ros2_ws/src/action_tutorials_cpp -DCMAKE_INSTALL_PREFIX=/home/tj/ros2_ws/install/action_tutorials_cpp
+[2.758s] -- The C compiler identification is GNU 11.4.0
+[6.914s] -- The CXX compiler identification is GNU 11.4.0
+[7.077s] -- Detecting C compiler ABI info
+[8.006s] -- Detecting C compiler ABI info - done
+[8.180s] -- Check for working C compiler: /usr/bin/cc - skipped
+[8.253s] -- Detecting C compile features
+[8.333s] -- Detecting C compile features - done
+[8.397s] -- Detecting CXX compiler ABI info
+[9.949s] -- Detecting CXX compiler ABI info - done
+[9.950s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[9.950s] -- Detecting CXX compile features
+[9.957s] -- Detecting CXX compile features - done
+[10.006s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[11.497s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[11.907s] -- Found action_tutorials_interfaces: 0.0.0 (/home/tj/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake)
+[11.999s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[12.101s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[12.106s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[12.175s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[12.285s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.648s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[12.860s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[12.882s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[14.270s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[14.555s] -- Found FastRTPS: /opt/ros/humble/include  
+[14.938s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[15.059s] -- Looking for pthread.h
+[16.407s] -- Looking for pthread.h - found
+[16.408s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[17.788s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[17.814s] -- Found Threads: TRUE  
+[18.314s] -- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)
+[18.687s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[19.660s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[20.321s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[20.321s] -- Configured cppcheck include dirs: 
+[20.321s] -- Configured cppcheck exclude dirs and/or files: 
+[20.351s] -- Added test 'lint_cmake' to check CMake code style
+[20.353s] -- Added test 'uncrustify' to check C / C++ code style
+[20.353s] -- Configured uncrustify additional arguments: 
+[20.353s] -- Added test 'xmllint' to check XML markup files
+[20.439s] -- Configuring done
+[20.556s] -- Generating done
+[20.564s] -- Build files have been written to: /home/tj/ros2_ws/build/action_tutorials_cpp
+[20.797s] Invoked command in '/home/tj/ros2_ws/build/action_tutorials_cpp' returned '0': AMENT_PREFIX_PATH=/home/tj/ros2_ws/install/action_tutorials_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tj/ros2_ws/install/action_tutorials_interfaces:/home/tj/ros2_ws/install/cpp_srvcli:/home/tj/ros2_ws/install/cpp_pubsub:/home/tj/ros2_ws/install/tutorial_interfaces:/home/tj/ros2_ws/install/turtlesim:/home/tj/ros2_ws/install/polygon_plugins:/home/tj/ros2_ws/install/polygon_base:/home/tj/ros2_ws/install/my_package:/home/tj/ros2_ws/install/more_interfaces:/home/tj/ros2_ws/install/custom_action_interfaces:/home/tj/ros2_ws/install/cpp_parameters:/home/tj/ros2_ws/install/python_parameters:/home/tj/ros2_ws/install/py_srvcli:/home/tj/ros2_ws/install/py_pubsub:/opt/ros/humble LD_LIBRARY_PATH=/home/tj/ros2_ws/install/action_tutorials_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tj/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/tj/ros2_ws/src/action_tutorials_cpp -DCMAKE_INSTALL_PREFIX=/home/tj/ros2_ws/install/action_tutorials_cpp
+[20.813s] Invoking command in '/home/tj/ros2_ws/build/action_tutorials_cpp': AMENT_PREFIX_PATH=/home/tj/ros2_ws/install/action_tutorials_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tj/ros2_ws/install/action_tutorials_interfaces:/home/tj/ros2_ws/install/cpp_srvcli:/home/tj/ros2_ws/install/cpp_pubsub:/home/tj/ros2_ws/install/tutorial_interfaces:/home/tj/ros2_ws/install/turtlesim:/home/tj/ros2_ws/install/polygon_plugins:/home/tj/ros2_ws/install/polygon_base:/home/tj/ros2_ws/install/my_package:/home/tj/ros2_ws/install/more_interfaces:/home/tj/ros2_ws/install/custom_action_interfaces:/home/tj/ros2_ws/install/cpp_parameters:/home/tj/ros2_ws/install/python_parameters:/home/tj/ros2_ws/install/py_srvcli:/home/tj/ros2_ws/install/py_pubsub:/opt/ros/humble LD_LIBRARY_PATH=/home/tj/ros2_ws/install/action_tutorials_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tj/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tj/ros2_ws/build/action_tutorials_cpp -- -j8 -l8
+[21.441s] Invoked command in '/home/tj/ros2_ws/build/action_tutorials_cpp' returned '0': AMENT_PREFIX_PATH=/home/tj/ros2_ws/install/action_tutorials_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tj/ros2_ws/install/action_tutorials_interfaces:/home/tj/ros2_ws/install/cpp_srvcli:/home/tj/ros2_ws/install/cpp_pubsub:/home/tj/ros2_ws/install/tutorial_interfaces:/home/tj/ros2_ws/install/turtlesim:/home/tj/ros2_ws/install/polygon_plugins:/home/tj/ros2_ws/install/polygon_base:/home/tj/ros2_ws/install/my_package:/home/tj/ros2_ws/install/more_interfaces:/home/tj/ros2_ws/install/custom_action_interfaces:/home/tj/ros2_ws/install/cpp_parameters:/home/tj/ros2_ws/install/python_parameters:/home/tj/ros2_ws/install/py_srvcli:/home/tj/ros2_ws/install/py_pubsub:/opt/ros/humble LD_LIBRARY_PATH=/home/tj/ros2_ws/install/action_tutorials_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tj/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tj/ros2_ws/build/action_tutorials_cpp -- -j8 -l8
+[22.111s] Invoking command in '/home/tj/ros2_ws/build/action_tutorials_cpp': AMENT_PREFIX_PATH=/home/tj/ros2_ws/install/action_tutorials_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tj/ros2_ws/install/action_tutorials_interfaces:/home/tj/ros2_ws/install/cpp_srvcli:/home/tj/ros2_ws/install/cpp_pubsub:/home/tj/ros2_ws/install/tutorial_interfaces:/home/tj/ros2_ws/install/turtlesim:/home/tj/ros2_ws/install/polygon_plugins:/home/tj/ros2_ws/install/polygon_base:/home/tj/ros2_ws/install/my_package:/home/tj/ros2_ws/install/more_interfaces:/home/tj/ros2_ws/install/custom_action_interfaces:/home/tj/ros2_ws/install/cpp_parameters:/home/tj/ros2_ws/install/python_parameters:/home/tj/ros2_ws/install/py_srvcli:/home/tj/ros2_ws/install/py_pubsub:/opt/ros/humble LD_LIBRARY_PATH=/home/tj/ros2_ws/install/action_tutorials_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tj/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tj/ros2_ws/build/action_tutorials_cpp
+[22.227s] -- Install configuration: ""
+[22.227s] -- Installing: /home/tj/ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/package_run_dependencies/action_tutorials_cpp
+[22.227s] -- Installing: /home/tj/ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/parent_prefix_path/action_tutorials_cpp
+[22.227s] -- Installing: /home/tj/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.sh
+[22.228s] -- Installing: /home/tj/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.dsv
+[22.228s] -- Installing: /home/tj/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/path.sh
+[22.228s] -- Installing: /home/tj/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/path.dsv
+[22.228s] -- Installing: /home/tj/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.bash
+[22.228s] -- Installing: /home/tj/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.sh
+[22.292s] -- Installing: /home/tj/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.zsh
+[22.298s] -- Installing: /home/tj/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.dsv
+[22.299s] -- Installing: /home/tj/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/package.dsv
+[22.328s] -- Installing: /home/tj/ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/packages/action_tutorials_cpp
+[22.349s] -- Installing: /home/tj/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/cmake/action_tutorials_cppConfig.cmake
+[22.349s] -- Installing: /home/tj/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/cmake/action_tutorials_cppConfig-version.cmake
+[22.349s] -- Installing: /home/tj/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/package.xml
+[22.353s] Invoked command in '/home/tj/ros2_ws/build/action_tutorials_cpp' returned '0': AMENT_PREFIX_PATH=/home/tj/ros2_ws/install/action_tutorials_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tj/ros2_ws/install/action_tutorials_interfaces:/home/tj/ros2_ws/install/cpp_srvcli:/home/tj/ros2_ws/install/cpp_pubsub:/home/tj/ros2_ws/install/tutorial_interfaces:/home/tj/ros2_ws/install/turtlesim:/home/tj/ros2_ws/install/polygon_plugins:/home/tj/ros2_ws/install/polygon_base:/home/tj/ros2_ws/install/my_package:/home/tj/ros2_ws/install/more_interfaces:/home/tj/ros2_ws/install/custom_action_interfaces:/home/tj/ros2_ws/install/cpp_parameters:/home/tj/ros2_ws/install/python_parameters:/home/tj/ros2_ws/install/py_srvcli:/home/tj/ros2_ws/install/py_pubsub:/opt/ros/humble LD_LIBRARY_PATH=/home/tj/ros2_ws/install/action_tutorials_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tj/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tj/ros2_ws/build/action_tutorials_cpp

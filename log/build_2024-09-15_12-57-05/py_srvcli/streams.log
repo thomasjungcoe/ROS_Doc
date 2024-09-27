@@ -1,0 +1,23 @@
+[7.299s] Invoking command in '/home/tj/ros2_ws/src/py_srvcli': PYTHONPATH=/home/tj/ros2_ws/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tj/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/tj/ros2_ws/build/py_srvcli/build install --record /home/tj/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed install_data
+[8.766s] running egg_info
+[8.766s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[8.790s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[8.831s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[8.831s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[8.831s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[8.831s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[8.831s] adding license file 'LICENSE'
+[8.864s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[8.864s] running build
+[8.864s] running build_py
+[8.923s] running install
+[8.945s] running install_lib
+[8.945s] running install_data
+[8.945s] running install_egg_info
+[8.945s] removing '/home/tj/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info' (and everything under it)
+[8.945s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/tj/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info
+[8.968s] running install_scripts
+[9.083s] Installing client script to /home/tj/ros2_ws/install/py_srvcli/lib/py_srvcli
+[9.083s] Installing service script to /home/tj/ros2_ws/install/py_srvcli/lib/py_srvcli
+[9.083s] writing list of installed files to '/home/tj/ros2_ws/build/py_srvcli/install.log'
+[9.574s] Invoked command in '/home/tj/ros2_ws/src/py_srvcli' returned '0': PYTHONPATH=/home/tj/ros2_ws/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tj/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/tj/ros2_ws/build/py_srvcli/build install --record /home/tj/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed install_data

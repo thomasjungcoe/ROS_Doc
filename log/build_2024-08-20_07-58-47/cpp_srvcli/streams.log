@@ -1,0 +1,31 @@
+[0.083s] Invoking command in '/home/tj/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/home/tj/ros2_ws/install/tutorial_interfaces:/home/tj/ros2_ws/install/cpp_srvcli:/home/tj/ros2_ws/install/cpp_pubsub:/home/tj/ros2_ws/install/turtlesim:/home/tj/ros2_ws/install/my_package:/home/tj/ros2_ws/install/py_srvcli:/home/tj/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/tj/ros2_ws/build/cpp_srvcli -- -j8 -l8
+[0.236s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[0.295s] [ 25%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[0.332s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[4.965s] [ 75%] [32m[1mLinking CXX executable server[0m
+[5.196s] [100%] [32m[1mLinking CXX executable client[0m
+[5.349s] [100%] Built target server
+[5.406s] [100%] Built target client
+[5.420s] Invoked command in '/home/tj/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/home/tj/ros2_ws/install/tutorial_interfaces:/home/tj/ros2_ws/install/cpp_srvcli:/home/tj/ros2_ws/install/cpp_pubsub:/home/tj/ros2_ws/install/turtlesim:/home/tj/ros2_ws/install/my_package:/home/tj/ros2_ws/install/py_srvcli:/home/tj/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/tj/ros2_ws/build/cpp_srvcli -- -j8 -l8
+[5.490s] Invoking command in '/home/tj/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/home/tj/ros2_ws/install/tutorial_interfaces:/home/tj/ros2_ws/install/cpp_srvcli:/home/tj/ros2_ws/install/cpp_pubsub:/home/tj/ros2_ws/install/turtlesim:/home/tj/ros2_ws/install/my_package:/home/tj/ros2_ws/install/py_srvcli:/home/tj/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/tj/ros2_ws/build/cpp_srvcli
+[5.500s] -- Install configuration: ""
+[5.512s] -- Installing: /home/tj/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[5.514s] -- Set runtime path of "/home/tj/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[5.517s] -- Installing: /home/tj/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[5.519s] -- Set runtime path of "/home/tj/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[5.519s] -- Installing: /home/tj/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[5.519s] -- Installing: /home/tj/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[5.519s] -- Up-to-date: /home/tj/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[5.520s] -- Installing: /home/tj/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[5.520s] -- Up-to-date: /home/tj/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[5.520s] -- Installing: /home/tj/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[5.521s] -- Up-to-date: /home/tj/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[5.521s] -- Up-to-date: /home/tj/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[5.521s] -- Up-to-date: /home/tj/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[5.522s] -- Installing: /home/tj/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[5.522s] -- Installing: /home/tj/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[5.525s] -- Up-to-date: /home/tj/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[5.525s] -- Up-to-date: /home/tj/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[5.527s] -- Up-to-date: /home/tj/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[5.527s] -- Installing: /home/tj/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[5.529s] Invoked command in '/home/tj/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/home/tj/ros2_ws/install/tutorial_interfaces:/home/tj/ros2_ws/install/cpp_srvcli:/home/tj/ros2_ws/install/cpp_pubsub:/home/tj/ros2_ws/install/turtlesim:/home/tj/ros2_ws/install/my_package:/home/tj/ros2_ws/install/py_srvcli:/home/tj/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/tj/ros2_ws/build/cpp_srvcli

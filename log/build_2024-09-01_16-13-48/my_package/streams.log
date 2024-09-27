@@ -1,0 +1,21 @@
+[0.957s] Invoking command in '/home/tj/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tj/ros2_ws/build/my_package -- -j8 -l8
+[2.643s] [100%] Built target my_node
+[7.419s] Invoked command in '/home/tj/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tj/ros2_ws/build/my_package -- -j8 -l8
+[8.605s] Invoking command in '/home/tj/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tj/ros2_ws/build/my_package
+[8.694s] -- Install configuration: ""
+[8.714s] -- Up-to-date: /home/tj/ros2_ws/install/my_package/lib/my_package/my_node
+[8.723s] -- Up-to-date: /home/tj/ros2_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[8.732s] -- Up-to-date: /home/tj/ros2_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[8.732s] -- Up-to-date: /home/tj/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[8.733s] -- Up-to-date: /home/tj/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[8.744s] -- Up-to-date: /home/tj/ros2_ws/install/my_package/share/my_package/environment/path.sh
+[8.753s] -- Up-to-date: /home/tj/ros2_ws/install/my_package/share/my_package/environment/path.dsv
+[8.753s] -- Up-to-date: /home/tj/ros2_ws/install/my_package/share/my_package/local_setup.bash
+[8.753s] -- Up-to-date: /home/tj/ros2_ws/install/my_package/share/my_package/local_setup.sh
+[8.753s] -- Up-to-date: /home/tj/ros2_ws/install/my_package/share/my_package/local_setup.zsh
+[8.753s] -- Up-to-date: /home/tj/ros2_ws/install/my_package/share/my_package/local_setup.dsv
+[8.753s] -- Installing: /home/tj/ros2_ws/install/my_package/share/my_package/package.dsv
+[8.753s] -- Up-to-date: /home/tj/ros2_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+[8.753s] -- Up-to-date: /home/tj/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[8.759s] -- Up-to-date: /home/tj/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[8.760s] -- Up-to-date: /home/tj/ros2_ws/install/my_package/share/my_package/package.xml

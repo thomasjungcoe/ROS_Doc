@@ -1,0 +1,144 @@
+[0.376s] Invoking command in '/home/tj/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tj/ros2_ws/install/tutorial_interfaces:/home/tj/ros2_ws/install/python_parameters:/home/tj/ros2_ws/install/py_srvcli:/home/tj/ros2_ws/install/py_pubsub:/home/tj/ros2_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/tj/ros2_ws/build/more_interfaces -- -j8 -l8
+[1.255s] [  3%] Built target more_interfaces__cpp
+[1.580s] [ 12%] Built target more_interfaces__rosidl_generator_c
+[1.580s] [ 12%] Built target ament_cmake_python_copy_more_interfaces
+[1.700s] [ 21%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.821s] [ 30%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[1.990s] [ 39%] Built target more_interfaces__rosidl_typesupport_cpp
+[2.107s] [ 48%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[2.194s] [ 57%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[2.230s] [ 66%] Built target more_interfaces__rosidl_typesupport_c
+[2.622s] [ 66%] Built target more_interfaces
+[3.031s] [ 69%] Built target more_interfaces__py
+[3.423s] [ 75%] Built target more_interfaces__rosidl_generator_py
+[3.564s] running egg_info
+[3.564s] writing more_interfaces.egg-info/PKG-INFO
+[3.564s] writing dependency_links to more_interfaces.egg-info/dependency_links.txt
+[3.612s] writing top-level names to more_interfaces.egg-info/top_level.txt
+[3.657s] reading manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[3.658s] writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[3.877s] [ 84%] Built target publish_address_book
+[3.887s] [ 87%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.887s] [ 87%] Built target ament_cmake_python_build_more_interfaces_egg
+[3.951s] [ 93%] Built target more_interfaces__rosidl_typesupport_c__pyext
+[3.997s] [100%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext
+[4.284s] Invoked command in '/home/tj/ros2_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tj/ros2_ws/install/tutorial_interfaces:/home/tj/ros2_ws/install/python_parameters:/home/tj/ros2_ws/install/py_srvcli:/home/tj/ros2_ws/install/py_pubsub:/home/tj/ros2_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/tj/ros2_ws/build/more_interfaces -- -j8 -l8
+[7.263s] Invoking command in '/home/tj/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tj/ros2_ws/install/tutorial_interfaces:/home/tj/ros2_ws/install/python_parameters:/home/tj/ros2_ws/install/py_srvcli:/home/tj/ros2_ws/install/py_pubsub:/home/tj/ros2_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --install /home/tj/ros2_ws/build/more_interfaces
+[7.488s] -- Install configuration: ""
+[7.488s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/lib/more_interfaces/publish_address_book
+[7.488s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/share/ament_index/resource_index/rosidl_interfaces/more_interfaces
+[7.488s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[7.488s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[7.488s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/address_book.h
+[7.488s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_generator_c__visibility_control.h
+[7.488s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[7.488s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__functions.h
+[7.488s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__struct.h
+[7.488s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__functions.c
+[7.488s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.h
+[7.498s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/share/more_interfaces/environment/library_path.sh
+[7.498s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/share/more_interfaces/environment/library_path.dsv
+[7.519s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so
+[7.519s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[7.520s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[7.561s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.561s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[7.561s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_c.h
+[7.576s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so
+[7.576s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[7.576s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[7.576s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[7.577s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.c
+[7.577s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_c.h
+[7.579s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.642s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so
+[7.642s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so
+[7.644s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[7.684s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[7.684s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[7.684s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__struct.hpp
+[7.684s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__traits.hpp
+[7.684s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__builder.hpp
+[7.684s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/address_book.hpp
+[7.692s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[7.692s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[7.693s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.693s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[7.693s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/dds_fastrtps
+[7.693s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_cpp.hpp
+[7.693s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[7.706s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[7.706s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[7.706s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[7.706s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_cpp.hpp
+[7.706s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.cpp
+[7.719s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so
+[7.719s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so
+[7.719s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.sh
+[7.719s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.dsv
+[7.761s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info
+[7.761s] -- Installing: /home/tj/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[7.761s] -- Installing: /home/tj/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[7.761s] -- Installing: /home/tj/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[7.761s] -- Installing: /home/tj/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[7.763s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces
+[7.763s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/__init__.py
+[7.763s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[7.763s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg
+[7.763s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/__init__.py
+[7.763s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/_address_book.py
+[7.774s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/_address_book_s.c
+[7.784s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.791s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c
+[7.791s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.791s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.791s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/libmore_interfaces__rosidl_generator_py.so
+[7.791s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.063s] Listing '/home/tj/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces'...
+[8.063s] Listing '/home/tj/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg'...
+[8.119s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.157s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.172s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.217s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_py.so
+[8.219s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.idl
+[8.219s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.msg
+[8.219s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/share/ament_index/resource_index/package_run_dependencies/more_interfaces
+[8.219s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/share/ament_index/resource_index/parent_prefix_path/more_interfaces
+[8.220s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.sh
+[8.220s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.dsv
+[8.220s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/share/more_interfaces/environment/path.sh
+[8.220s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/share/more_interfaces/environment/path.dsv
+[8.220s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.bash
+[8.220s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.sh
+[8.220s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.zsh
+[8.220s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.dsv
+[8.220s] -- Installing: /home/tj/ros2_ws/install/more_interfaces/share/more_interfaces/package.dsv
+[8.254s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/share/ament_index/resource_index/packages/more_interfaces
+[8.271s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport.cmake
+[8.290s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport-noconfig.cmake
+[8.301s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[8.320s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.360s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[8.360s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.391s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport.cmake
+[8.391s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[8.398s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cppExport.cmake
+[8.531s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.531s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.531s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[8.531s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.536s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport.cmake
+[8.536s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[8.546s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport.cmake
+[8.553s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[8.553s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake-extras.cmake
+[8.554s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.554s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[8.554s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[8.554s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.554s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.554s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.554s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig.cmake
+[8.554s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig-version.cmake
+[8.554s] -- Up-to-date: /home/tj/ros2_ws/install/more_interfaces/share/more_interfaces/package.xml
+[8.603s] Invoked command in '/home/tj/ros2_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tj/ros2_ws/install/tutorial_interfaces:/home/tj/ros2_ws/install/python_parameters:/home/tj/ros2_ws/install/py_srvcli:/home/tj/ros2_ws/install/py_pubsub:/home/tj/ros2_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --install /home/tj/ros2_ws/build/more_interfaces

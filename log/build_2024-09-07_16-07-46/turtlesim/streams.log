@@ -1,0 +1,28 @@
+[1.510s] Invoking command in '/home/tj/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tj/ros2_ws/install/python_parameters:/home/tj/ros2_ws/install/py_srvcli:/home/tj/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/tj/ros2_ws/build/turtlesim -- -j8 -l8
+[2.307s] [  1%] Built target turtlesim__cpp
+[2.307s] [ 11%] Built target turtlesim__rosidl_generator_c
+[2.914s] [ 11%] Built target ament_cmake_python_copy_turtlesim
+[3.134s] [ 21%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[3.134s] [ 31%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[3.134s] [ 42%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[3.134s] [ 51%] Built target turtlesim__rosidl_typesupport_cpp
+[3.134s] [ 61%] Built target turtlesim__rosidl_typesupport_c
+[3.137s] [ 71%] Built target turtlesim__rosidl_typesupport_introspection_c
+[3.383s] [ 73%] Built target turtle_teleop_key
+[3.502s] [ 75%] Built target draw_square
+[3.716s] [ 81%] Built target turtlesim_node
+[3.774s] [ 81%] Built target turtlesim
+[3.931s] [ 83%] Built target mimic
+[4.289s] [ 84%] Built target turtlesim__py
+[4.765s] [ 93%] Built target turtlesim__rosidl_generator_py
+[5.665s] [ 95%] Built target turtlesim__rosidl_typesupport_c__pyext
+[5.668s] [ 97%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext
+[5.668s] [100%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext
+[5.668s] running egg_info
+[5.674s] writing turtlesim.egg-info/PKG-INFO
+[5.674s] writing dependency_links to turtlesim.egg-info/dependency_links.txt
+[5.674s] writing top-level names to turtlesim.egg-info/top_level.txt
+[5.674s] reading manifest file 'turtlesim.egg-info/SOURCES.txt'
+[5.674s] writing manifest file 'turtlesim.egg-info/SOURCES.txt'
+[5.836s] [100%] Built target ament_cmake_python_build_turtlesim_egg
+[6.467s] Invoked command in '/home/tj/ros2_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tj/ros2_ws/install/python_parameters:/home/tj/ros2_ws/install/py_srvcli:/home/tj/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/tj/ros2_ws/build/turtlesim -- -j8 -l8

@@ -1,0 +1,167 @@
+[0.000000] (-) TimerEvent: {}
+[0.006034] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.010211] (-) JobUnselected: {'identifier': 'my_package'}
+[0.010640] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.010748] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.010773] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.010792] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.010815] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/tj/ros2_ws/install/tutorial_interfaces')])}
+[0.010848] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.041736] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.058033] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.058331] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tj/ros2_ws/build/cpp_pubsub', '--', '-j8', '-l8'], 'cwd': '/home/tj/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tj'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tj/ros2_ws/install/tutorial_interfaces/lib:/home/tj/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tj'), ('OLDPWD', '/home/tj/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1996'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tj/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tj'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tombuntu:@/tmp/.ICE-unix/1794,unix/tombuntu:/tmp/.ICE-unix/1794'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/101fb8df_c260_448b_adec_aabdb357f49b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DOE8S2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tj/ros2_ws/install/tutorial_interfaces:/home/tj/ros2_ws/install/turtlesim:/home/tj/ros2_ws/install/py_srvcli:/home/tj/ros2_ws/install/py_pubsub:/home/tj/ros2_ws/install/my_package:/home/tj/ros2_ws/install/cpp_srvcli:/home/tj/ros2_ws/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tj/ros2_ws/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tj/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/tj/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/tj/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/tj/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tj/ros2_ws/install/tutorial_interfaces:/home/tj/ros2_ws/install/turtlesim:/home/tj/ros2_ws/install/my_package:/home/tj/ros2_ws/install/cpp_srvcli:/home/tj/ros2_ws/install/cpp_pubsub:/home/tj/ros2_ws/install/py_srvcli:/home/tj/ros2_ws/install/py_pubsub:/opt/ros/humble')]), 'shell': False}
+[0.098969] (-) TimerEvent: {}
+[0.206386] (-) TimerEvent: {}
+[0.253201] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.315041] (-) TimerEvent: {}
+[0.420051] (-) TimerEvent: {}
+[0.516432] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.520401] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.521098] (-) TimerEvent: {}
+[0.600584] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.608439] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.617763] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.622672] (-) TimerEvent: {}
+[0.633715] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.652255] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.732710] (-) TimerEvent: {}
+[0.779831] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.787203] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.841250] (-) TimerEvent: {}
+[0.943195] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.943525] (-) TimerEvent: {}
+[1.046386] (-) TimerEvent: {}
+[1.065919] (cpp_pubsub) StdoutLine: {'line': b'-- Found tutorial_interfaces: 0.0.0 (/home/tj/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)\n'}
+[1.148212] (-) TimerEvent: {}
+[1.160212] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.191155] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[1.194916] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/tj/ros2_ws/build/cpp_pubsub\n'}
+[1.231031] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[1.231453] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[1.248543] (-) TimerEvent: {}
+[1.286630] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[1.286852] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[1.351707] (-) TimerEvent: {}
+[1.452583] (-) TimerEvent: {}
+[1.553386] (-) TimerEvent: {}
+[1.653885] (-) TimerEvent: {}
+[1.755181] (-) TimerEvent: {}
+[1.858268] (-) TimerEvent: {}
+[2.036262] (-) TimerEvent: {}
+[2.373449] (-) TimerEvent: {}
+[2.477232] (-) TimerEvent: {}
+[2.854149] (-) TimerEvent: {}
+[3.290972] (-) TimerEvent: {}
+[3.857439] (-) TimerEvent: {}
+[4.437195] (-) TimerEvent: {}
+[4.695740] (-) TimerEvent: {}
+[4.718693] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tj/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:34:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[4.719779] (cpp_pubsub) StderrLine: {'line': b'   34 |   void topic_callback(const \x1b[01;31m\x1b[Ktutorial_interfaces\x1b[m\x1b[K::msg::Num & msg) const\n'}
+[4.720197] (cpp_pubsub) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.720276] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tj/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:34:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.720347] (cpp_pubsub) StderrLine: {'line': b'   34 |   void topic_callback(const tutorial_interfaces::msg\x1b[01;31m\x1b[K::\x1b[m\x1b[KNum & msg) const\n'}
+[4.720409] (cpp_pubsub) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.721121] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tj/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:34:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.721224] (cpp_pubsub) StderrLine: {'line': b'   34 |   void topic_callback\x1b[34m\x1b[K(\x1b[m\x1b[Kconst tutorial_interfaces::msg\x1b[01;31m\x1b[K:\x1b[m\x1b[K\x1b[32m\x1b[K:\x1b[m\x1b[KNum & msg) const\n'}
+[4.721271] (cpp_pubsub) StderrLine: {'line': b'      |                      \x1b[34m\x1b[K~\x1b[m\x1b[K                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[4.721314] (cpp_pubsub) StderrLine: {'line': b'      |                                                     \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[4.723836] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tj/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:34:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[4.724053] (cpp_pubsub) StderrLine: {'line': b'   34 |   void topic_callback(const tutorial_interfaces::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Num & msg) const\n'}
+[4.724143] (cpp_pubsub) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.724217] (cpp_pubsub) StderrLine: {'line': b'      |                                                     \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[4.727302] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tj/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:34:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KNum\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[4.727556] (cpp_pubsub) StderrLine: {'line': b'   34 |   void topic_callback(const tutorial_interfaces::msg::\x1b[01;31m\x1b[KNum\x1b[m\x1b[K & msg) const\n'}
+[4.727641] (cpp_pubsub) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.735948] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tj/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:38:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.736175] (cpp_pubsub) StderrLine: {'line': b'   38 |   rclcpp::Subscription<\x1b[01;31m\x1b[Ktutorial_interfaces\x1b[m\x1b[K::msg::Num>::SharedPtr subscription_;\n'}
+[4.736246] (cpp_pubsub) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.736306] (cpp_pubsub) StderrLine: {'line': b'      |                        \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[4.736364] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tj/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:38:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[4.736422] (cpp_pubsub) StderrLine: {'line': b'   38 |   rclcpp::Subscription<tutorial_interfaces::msg::Num\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr subscription_;\n'}
+[4.736530] (cpp_pubsub) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.736604] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tj/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:38:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 3 is invalid\n'}
+[4.736667] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tj/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:38:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 4 is invalid\n'}
+[4.736727] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tj/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:38:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 5 is invalid\n'}
+[4.736790] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tj/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:38:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[4.736877] (cpp_pubsub) StderrLine: {'line': b'   38 |   rclcpp::Subscription<tutorial_interfaces::msg::Num>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K subscription_;\n'}
+[4.736962] (cpp_pubsub) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.737026] (cpp_pubsub) StderrLine: {'line': b'      |                                                                 \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[4.740182] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tj/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:38:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.740342] (cpp_pubsub) StderrLine: {'line': b'   38 |   rclcpp::Subscription<tutorial_interfaces::msg::Num>::SharedPtr \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K;\n'}
+[4.740426] (cpp_pubsub) StderrLine: {'line': b'      |                                                                  \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.740555] (cpp_pubsub) StderrLine: {'line': b'      |                                                                  \x1b[32m\x1b[Krmw_subscription_t\x1b[m\x1b[K\n'}
+[4.754969] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tj/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:48:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.756067] (cpp_pubsub) StderrLine: {'line': b'   48 |   rclcpp::Publisher<\x1b[01;31m\x1b[Ktutorial_interfaces\x1b[m\x1b[K::msg::Num>::SharedPtr publisher_;\n'}
+[4.756404] (cpp_pubsub) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.756585] (cpp_pubsub) StderrLine: {'line': b'      |                     \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[4.756746] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tj/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:48:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[4.756910] (cpp_pubsub) StderrLine: {'line': b'   48 |   rclcpp::Publisher<tutorial_interfaces::msg::Num\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr publisher_;\n'}
+[4.757069] (cpp_pubsub) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.757225] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tj/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:48:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[4.757385] (cpp_pubsub) StderrLine: {'line': b'   48 |   rclcpp::Publisher<tutorial_interfaces::msg::Num>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K publisher_;\n'}
+[4.757541] (cpp_pubsub) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.757698] (cpp_pubsub) StderrLine: {'line': b'      |                                                              \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[4.757835] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tj/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:48:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.758004] (cpp_pubsub) StderrLine: {'line': b'   48 | clcpp::Publisher<tutorial_interfaces::msg::Num>::SharedPtr \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K;\n'}
+[4.758262] (cpp_pubsub) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.758425] (cpp_pubsub) StderrLine: {'line': b'      |                                                            \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[4.758579] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tj/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher::MinimalPublisher()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.758736] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tj/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:34:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.758884] (cpp_pubsub) StderrLine: {'line': b'   34 |     \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K = this->create_publisher<std_msgs::msg::String>("topic", 10);\n'}
+[4.759034] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.759181] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[4.773469] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tj/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMinimalSubscriber::MinimalSubscriber()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.774934] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tj/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:29:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.775729] (cpp_pubsub) StderrLine: {'line': b'   29 |     \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K = this->create_subscription<tutorial_interfaces::msg::Num>(\n'}
+[4.775868] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.776014] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krmw_subscription_t\x1b[m\x1b[K\n'}
+[4.776165] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tj/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.776318] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tj/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:42:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[4.776488] (cpp_pubsub) StderrLine: {'line': b'   42 |     auto message = \x1b[01;31m\x1b[Ktutorial_interfaces\x1b[m\x1b[K::msg::Num();\n'}
+[4.776647] (cpp_pubsub) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.791090] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tj/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:45:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.791459] (cpp_pubsub) StderrLine: {'line': b'   45 |     \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K->publish(message);\n'}
+[4.791642] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.791782] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[4.791914] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tj/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:29:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.792044] (cpp_pubsub) StderrLine: {'line': b'   29 |     subscription_ = this->create_subscription<\x1b[01;31m\x1b[Ktutorial_interfaces\x1b[m\x1b[K::msg::Num>(\n'}
+[4.792268] (cpp_pubsub) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.792407] (cpp_pubsub) StderrLine: {'line': b'      |                                               \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[4.792533] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tj/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:29:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[4.792659] (cpp_pubsub) StderrLine: {'line': b'   29 |     subscription_ = this->\x1b[01;31m\x1b[Kcreate_subscription<tutorial_interfaces::msg::Num>\x1b[m\x1b[K(\n'}
+[4.792784] (cpp_pubsub) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.796047] (-) TimerEvent: {}
+[4.801913] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tj/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:29:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KMinimalSubscriber::create_subscription<<expression error> >(const char [6], int, std::_Bind_helper<false, void (MinimalSubscriber::*)(...), MinimalSubscriber*, const std::_Placeholder<1>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.803015] (cpp_pubsub) StderrLine: {'line': b'   29 |     subscription_ = \x1b[01;31m\x1b[Kthis->create_subscription<tutorial_interfaces::msg::Num>(\x1b[m\x1b[K\n'}
+[4.803629] (cpp_pubsub) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[4.804203] (cpp_pubsub) StderrLine: {'line': b'   30 | \x1b[01;31m\x1b[K      "topic", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1))\x1b[m\x1b[K;\n'}
+[4.804444] (cpp_pubsub) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \n'}
+[4.807231] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[4.807682] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[4.807790] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.807860] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tj/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:18\x1b[m\x1b[K:\n'}
+[4.807922] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.808051] (cpp_pubsub) StderrLine: {'line': b'  219 |   \x1b[01;36m\x1b[Kcreate_subscription\x1b[m\x1b[K(\n'}
+[4.808276] (cpp_pubsub) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.808354] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.808624] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tj/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:29:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[4.809080] (cpp_pubsub) StderrLine: {'line': b'   29 |     subscription_ = \x1b[01;31m\x1b[Kthis->create_subscription<tutorial_interfaces::msg::Num>(\x1b[m\x1b[K\n'}
+[4.810732] (cpp_pubsub) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[4.811154] (cpp_pubsub) StderrLine: {'line': b'   30 | \x1b[01;31m\x1b[K      "topic", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1))\x1b[m\x1b[K;\n'}
+[4.811583] (cpp_pubsub) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \n'}
+[4.898865] (-) TimerEvent: {}
+[5.103906] (-) TimerEvent: {}
+[5.351237] (-) TimerEvent: {}
+[5.379363] (cpp_pubsub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1\n'}
+[5.380250] (cpp_pubsub) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2\n'}
+[5.380349] (cpp_pubsub) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[5.452021] (-) TimerEvent: {}
+[5.552999] (-) TimerEvent: {}
+[5.662162] (-) TimerEvent: {}
+[5.677833] (cpp_pubsub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1\n'}
+[5.678354] (cpp_pubsub) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2\n'}
+[5.678820] (cpp_pubsub) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.682878] (cpp_pubsub) CommandEnded: {'returncode': 2}
+[5.764276] (-) TimerEvent: {}
+[5.770059] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 2}
+[5.788497] (-) EventReactorShutdown: {}

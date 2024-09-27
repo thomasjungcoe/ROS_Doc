@@ -1,0 +1,30 @@
+[0.897s] Invoking command in '/home/tj/ros2_ws/build/polygon_base': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tj/ros2_ws/build/polygon_base -- -j8 -l8
+[5.986s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.987s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[5.987s] -- Configuring done
+[5.987s] -- Generating done
+[5.987s] -- Build files have been written to: /home/tj/ros2_ws/build/polygon_base
+[5.987s] [35m[1mConsolidate compiler generated dependencies of target area_node[0m
+[5.987s] [100%] Built target area_node
+[6.187s] Invoked command in '/home/tj/ros2_ws/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tj/ros2_ws/build/polygon_base -- -j8 -l8
+[7.661s] Invoking command in '/home/tj/ros2_ws/build/polygon_base': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tj/ros2_ws/build/polygon_base
+[7.744s] -- Install configuration: ""
+[7.744s] -- Installing: /home/tj/ros2_ws/install/polygon_base/share/polygon_base/plugins.xml
+[7.744s] -- Installing: /home/tj/ros2_ws/install/polygon_base/bin/area_node
+[7.744s] -- Set runtime path of "/home/tj/ros2_ws/install/polygon_base/bin/area_node" to ""
+[7.744s] -- Installing: /home/tj/ros2_ws/install/polygon_base/share/ament_index/resource_index/package_run_dependencies/polygon_base
+[7.745s] -- Installing: /home/tj/ros2_ws/install/polygon_base/share/ament_index/resource_index/parent_prefix_path/polygon_base
+[7.745s] -- Installing: /home/tj/ros2_ws/install/polygon_base/share/polygon_base/environment/ament_prefix_path.sh
+[7.755s] -- Installing: /home/tj/ros2_ws/install/polygon_base/share/polygon_base/environment/ament_prefix_path.dsv
+[7.756s] -- Installing: /home/tj/ros2_ws/install/polygon_base/share/polygon_base/environment/path.sh
+[7.756s] -- Installing: /home/tj/ros2_ws/install/polygon_base/share/polygon_base/environment/path.dsv
+[7.756s] -- Installing: /home/tj/ros2_ws/install/polygon_base/share/polygon_base/local_setup.bash
+[7.756s] -- Installing: /home/tj/ros2_ws/install/polygon_base/share/polygon_base/local_setup.sh
+[7.835s] -- Installing: /home/tj/ros2_ws/install/polygon_base/share/polygon_base/local_setup.zsh
+[7.887s] -- Installing: /home/tj/ros2_ws/install/polygon_base/share/polygon_base/local_setup.dsv
+[7.893s] -- Installing: /home/tj/ros2_ws/install/polygon_base/share/polygon_base/package.dsv
+[7.894s] -- Installing: /home/tj/ros2_ws/install/polygon_base/share/ament_index/resource_index/packages/polygon_base
+[7.894s] -- Installing: /home/tj/ros2_ws/install/polygon_base/share/ament_index/resource_index/polygon_base__pluginlib__plugin/polygon_base
+[7.894s] -- Installing: /home/tj/ros2_ws/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig.cmake
+[7.894s] -- Installing: /home/tj/ros2_ws/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig-version.cmake
+[7.894s] -- Installing: /home/tj/ros2_ws/install/polygon_base/share/polygon_base/package.xml

@@ -1,0 +1,8 @@
+[0.050s] Invoking command in '/home/tj/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tj/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/tj/ros2_ws/install/cpp_pubsub
+[0.189s] -- Configuring incomplete, errors occurred!
+[0.192s] [31mCMake Error at CMakeLists.txt:22:
+[0.192s]   Parse error.  Expected a command name, got unquoted argument with text
+[0.192s]   "ament_target-dependencies".
+[0.192s] 
+[0.192s] [0m
+[0.223s] Invoked command in '/home/tj/ros2_ws/build/cpp_pubsub' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tj/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/tj/ros2_ws/install/cpp_pubsub

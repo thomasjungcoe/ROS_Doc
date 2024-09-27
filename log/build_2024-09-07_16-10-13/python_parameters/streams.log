@@ -1,0 +1,21 @@
+[9.405s] Invoking command in '/home/tj/ros2_ws/src/python_parameters': PYTHONPATH=/home/tj/ros2_ws/build/python_parameters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tj/ros2_ws/install/python_parameters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/tj/ros2_ws/build/python_parameters/build install --record /home/tj/ros2_ws/build/python_parameters/install.log --single-version-externally-managed install_data
+[12.666s] running egg_info
+[12.758s] writing ../../build/python_parameters/python_parameters.egg-info/PKG-INFO
+[12.759s] writing dependency_links to ../../build/python_parameters/python_parameters.egg-info/dependency_links.txt
+[12.759s] writing entry points to ../../build/python_parameters/python_parameters.egg-info/entry_points.txt
+[12.759s] writing requirements to ../../build/python_parameters/python_parameters.egg-info/requires.txt
+[12.759s] writing top-level names to ../../build/python_parameters/python_parameters.egg-info/top_level.txt
+[12.759s] reading manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[12.759s] writing manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[12.759s] running build
+[12.759s] running build_py
+[12.759s] running install
+[12.759s] running install_lib
+[12.832s] running install_data
+[12.869s] running install_egg_info
+[12.870s] removing '/home/tj/ros2_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters-0.0.0-py3.10.egg-info' (and everything under it)
+[12.870s] Copying ../../build/python_parameters/python_parameters.egg-info to /home/tj/ros2_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters-0.0.0-py3.10.egg-info
+[12.870s] running install_scripts
+[13.055s] Installing minimal_param_node script to /home/tj/ros2_ws/install/python_parameters/lib/python_parameters
+[13.358s] writing list of installed files to '/home/tj/ros2_ws/build/python_parameters/install.log'
+[13.458s] Invoked command in '/home/tj/ros2_ws/src/python_parameters' returned '0': PYTHONPATH=/home/tj/ros2_ws/build/python_parameters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tj/ros2_ws/install/python_parameters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/tj/ros2_ws/build/python_parameters/build install --record /home/tj/ros2_ws/build/python_parameters/install.log --single-version-externally-managed install_data

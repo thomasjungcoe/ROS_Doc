@@ -1,0 +1,35 @@
+[0.396s] Invoking command in '/home/tj/ros2_ws/build/polygon_plugins': CMAKE_PREFIX_PATH=/home/tj/ros2_ws/install/polygon_base:/home/tj/ros2_ws/install/cpp_srvcli:/home/tj/ros2_ws/install/cpp_pubsub:/home/tj/ros2_ws/install/tutorial_interfaces:/home/tj/ros2_ws/install/turtlesim:/home/tj/ros2_ws/install/polygon_plugins:/home/tj/ros2_ws/install/my_package:/home/tj/ros2_ws/install/more_interfaces:/home/tj/ros2_ws/install/custom_action_interfaces:/home/tj/ros2_ws/install/cpp_parameters:/home/tj/ros2_ws/install/python_parameters:/home/tj/ros2_ws/install/py_srvcli:/home/tj/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/tj/ros2_ws/build/polygon_plugins -- -j8 -l8
+[1.915s] [100%] Built target polygon_plugins
+[3.149s] Invoked command in '/home/tj/ros2_ws/build/polygon_plugins' returned '0': CMAKE_PREFIX_PATH=/home/tj/ros2_ws/install/polygon_base:/home/tj/ros2_ws/install/cpp_srvcli:/home/tj/ros2_ws/install/cpp_pubsub:/home/tj/ros2_ws/install/tutorial_interfaces:/home/tj/ros2_ws/install/turtlesim:/home/tj/ros2_ws/install/polygon_plugins:/home/tj/ros2_ws/install/my_package:/home/tj/ros2_ws/install/more_interfaces:/home/tj/ros2_ws/install/custom_action_interfaces:/home/tj/ros2_ws/install/cpp_parameters:/home/tj/ros2_ws/install/python_parameters:/home/tj/ros2_ws/install/py_srvcli:/home/tj/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/tj/ros2_ws/build/polygon_plugins -- -j8 -l8
+[4.208s] Invoking command in '/home/tj/ros2_ws/build/polygon_plugins': CMAKE_PREFIX_PATH=/home/tj/ros2_ws/install/polygon_base:/home/tj/ros2_ws/install/cpp_srvcli:/home/tj/ros2_ws/install/cpp_pubsub:/home/tj/ros2_ws/install/tutorial_interfaces:/home/tj/ros2_ws/install/turtlesim:/home/tj/ros2_ws/install/polygon_plugins:/home/tj/ros2_ws/install/my_package:/home/tj/ros2_ws/install/more_interfaces:/home/tj/ros2_ws/install/custom_action_interfaces:/home/tj/ros2_ws/install/cpp_parameters:/home/tj/ros2_ws/install/python_parameters:/home/tj/ros2_ws/install/py_srvcli:/home/tj/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/tj/ros2_ws/build/polygon_plugins
+[4.522s] -- Install configuration: ""
+[4.531s] -- Up-to-date: /home/tj/ros2_ws/install/polygon_plugins/share/polygon_plugins/plugins.xml
+[4.532s] -- Up-to-date: /home/tj/ros2_ws/install/polygon_plugins/include
+[4.532s] -- Up-to-date: /home/tj/ros2_ws/install/polygon_plugins/include/polygon_plugins
+[4.532s] -- Up-to-date: /home/tj/ros2_ws/install/polygon_plugins/include/polygon_plugins/visibility_control.h
+[4.532s] -- Up-to-date: /home/tj/ros2_ws/install/polygon_plugins/include/polygon_plugins/polygon_plugins.hpp
+[4.532s] -- Up-to-date: /home/tj/ros2_ws/install/polygon_plugins/lib/libpolygon_plugins.so
+[4.589s] -- Up-to-date: /home/tj/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/library_path.sh
+[4.590s] -- Up-to-date: /home/tj/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/library_path.dsv
+[4.590s] -- Up-to-date: /home/tj/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/package_run_dependencies/polygon_plugins
+[4.590s] -- Up-to-date: /home/tj/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/parent_prefix_path/polygon_plugins
+[4.682s] -- Up-to-date: /home/tj/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/ament_prefix_path.sh
+[4.688s] -- Up-to-date: /home/tj/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/ament_prefix_path.dsv
+[4.688s] -- Up-to-date: /home/tj/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/path.sh
+[4.688s] -- Up-to-date: /home/tj/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/path.dsv
+[4.688s] -- Up-to-date: /home/tj/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.bash
+[4.688s] -- Up-to-date: /home/tj/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.sh
+[4.688s] -- Up-to-date: /home/tj/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.zsh
+[4.688s] -- Up-to-date: /home/tj/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.dsv
+[4.688s] -- Installing: /home/tj/ros2_ws/install/polygon_plugins/share/polygon_plugins/package.dsv
+[4.721s] -- Up-to-date: /home/tj/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/packages/polygon_plugins
+[4.721s] -- Up-to-date: /home/tj/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/polygon_base__pluginlib__plugin/polygon_plugins
+[4.721s] -- Up-to-date: /home/tj/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/export_polygon_pluginsExport.cmake
+[4.721s] -- Up-to-date: /home/tj/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/export_polygon_pluginsExport-noconfig.cmake
+[4.721s] -- Up-to-date: /home/tj/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.721s] -- Up-to-date: /home/tj/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+[4.721s] -- Up-to-date: /home/tj/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_targets-extras.cmake
+[4.722s] -- Up-to-date: /home/tj/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/polygon_pluginsConfig.cmake
+[4.722s] -- Up-to-date: /home/tj/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/polygon_pluginsConfig-version.cmake
+[4.722s] -- Up-to-date: /home/tj/ros2_ws/install/polygon_plugins/share/polygon_plugins/package.xml
+[4.817s] Invoked command in '/home/tj/ros2_ws/build/polygon_plugins' returned '0': CMAKE_PREFIX_PATH=/home/tj/ros2_ws/install/polygon_base:/home/tj/ros2_ws/install/cpp_srvcli:/home/tj/ros2_ws/install/cpp_pubsub:/home/tj/ros2_ws/install/tutorial_interfaces:/home/tj/ros2_ws/install/turtlesim:/home/tj/ros2_ws/install/polygon_plugins:/home/tj/ros2_ws/install/my_package:/home/tj/ros2_ws/install/more_interfaces:/home/tj/ros2_ws/install/custom_action_interfaces:/home/tj/ros2_ws/install/cpp_parameters:/home/tj/ros2_ws/install/python_parameters:/home/tj/ros2_ws/install/py_srvcli:/home/tj/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/tj/ros2_ws/build/polygon_plugins

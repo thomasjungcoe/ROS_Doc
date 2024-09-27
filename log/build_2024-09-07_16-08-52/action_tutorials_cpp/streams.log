@@ -1,0 +1,54 @@
+[1.634s] Invoking command in '/home/tj/ros2_ws/build/action_tutorials_cpp': AMENT_PREFIX_PATH=/home/tj/ros2_ws/install/action_tutorials_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tj/ros2_ws/install/action_tutorials_interfaces:/home/tj/ros2_ws/install/cpp_srvcli:/home/tj/ros2_ws/install/cpp_pubsub:/home/tj/ros2_ws/install/tutorial_interfaces:/home/tj/ros2_ws/install/turtlesim:/home/tj/ros2_ws/install/polygon_plugins:/home/tj/ros2_ws/install/polygon_base:/home/tj/ros2_ws/install/my_package:/home/tj/ros2_ws/install/more_interfaces:/home/tj/ros2_ws/install/custom_action_interfaces:/home/tj/ros2_ws/install/cpp_parameters:/home/tj/ros2_ws/install/python_parameters:/home/tj/ros2_ws/install/py_srvcli:/home/tj/ros2_ws/install/py_pubsub:/opt/ros/humble LD_LIBRARY_PATH=/home/tj/ros2_ws/install/action_tutorials_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tj/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tj/ros2_ws/build/action_tutorials_cpp -- -j8 -l8
+[1.957s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.902s] -- Found action_tutorials_interfaces: 0.0.0 (/home/tj/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake)
+[3.257s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.257s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.257s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.257s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.258s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.617s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[3.778s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.778s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.883s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.545s] -- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)
+[5.545s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[5.811s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.979s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.980s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/tj/ros2_ws/src/action_tutorials_cpp/include>
+[6.980s] -- Configured cppcheck exclude dirs and/or files: 
+[6.980s] -- Added test 'lint_cmake' to check CMake code style
+[6.980s] -- Added test 'uncrustify' to check C / C++ code style
+[6.980s] -- Configured uncrustify additional arguments: 
+[6.980s] -- Added test 'xmllint' to check XML markup files
+[6.983s] -- Configuring done
+[7.471s] -- Generating done
+[7.665s] -- Build files have been written to: /home/tj/ros2_ws/build/action_tutorials_cpp
+[8.183s] [ 12%] [32mBuilding CXX object CMakeFiles/fibonacci_action_server.dir/rclcpp_components/node_main_fibonacci_action_server.cpp.o[0m
+[8.190s] [ 25%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/fibonacci_action_server.cpp.o[0m
+[8.257s] [ 50%] [32mBuilding CXX object CMakeFiles/fibonacci_action_client.dir/rclcpp_components/node_main_fibonacci_action_client.cpp.o[0m
+[8.257s] [ 50%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/fibonacci_action_client.cpp.o[0m
+[26.492s] [01m[K/home/tj/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_client.cpp:[m[K In constructor ‘[01m[Kaction_tutorials_cpp::FibonacciActionClient::FibonacciActionClient(const rclcpp::NodeOptions&)[m[K’:
+[26.493s] [01m[K/home/tj/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_client.cpp:26:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass action_tutorials_cpp::FibonacciActionClient[m[K’ has no member named ‘[01m[Kclient_ptr_[m[K’; did you mean ‘[01m[Kclient_prt_[m[K’?
+[26.493s]    26 |                         this->[01;31m[Kclient_ptr_[m[K = rclcpp_action::create_client<Fibonacci>(
+[26.493s]       |                               [01;31m[K^~~~~~~~~~~[m[K
+[26.493s]       |                               [32m[Kclient_prt_[m[K
+[26.515s] [01m[K/home/tj/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_client.cpp:[m[K In member function ‘[01m[Kvoid action_tutorials_cpp::FibonacciActionClient::send_goal()[m[K’:
+[26.515s] [01m[K/home/tj/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_client.cpp:41:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass action_tutorials_cpp::FibonacciActionClient[m[K’ has no member named ‘[01m[Kclient_ptr_[m[K’; did you mean ‘[01m[Kclient_prt_[m[K’?
+[26.515s]    41 |                         if (!this->[01;31m[Kclient_ptr_[m[K->wait_for_action_server()) {
+[26.515s]       |                                    [01;31m[K^~~~~~~~~~~[m[K
+[26.515s]       |                                    [32m[Kclient_prt_[m[K
+[26.575s] [01m[K/home/tj/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_client.cpp:58:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass action_tutorials_cpp::FibonacciActionClient[m[K’ has no member named ‘[01m[Kclient_ptr_[m[K’; did you mean ‘[01m[Kclient_prt_[m[K’?
+[26.575s]    58 |                                 this->[01;31m[Kclient_ptr_[m[K->async_send_goal(goal_msg, send_goal_options);
+[26.575s]       |                                       [01;31m[K^~~~~~~~~~~[m[K
+[26.576s]       |                                       [32m[Kclient_prt_[m[K
+[28.233s] [ 62%] [32m[1mLinking CXX executable fibonacci_action_client[0m
+[28.833s] [ 75%] [32m[1mLinking CXX executable fibonacci_action_server[0m
+[28.955s] gmake[2]: *** [CMakeFiles/action_client.dir/build.make:76: CMakeFiles/action_client.dir/src/fibonacci_action_client.cpp.o] Error 1
+[29.000s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/action_client.dir/all] Error 2
+[29.001s] gmake[1]: *** Waiting for unfinished jobs....
+[29.489s] [ 75%] Built target fibonacci_action_server
+[29.490s] [ 75%] Built target fibonacci_action_client
+[31.187s] [ 87%] [32m[1mLinking CXX shared library libaction_server.so[0m
+[31.485s] [ 87%] Built target action_server
+[31.487s] gmake: *** [Makefile:146: all] Error 2
+[31.492s] Invoked command in '/home/tj/ros2_ws/build/action_tutorials_cpp' returned '2': AMENT_PREFIX_PATH=/home/tj/ros2_ws/install/action_tutorials_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tj/ros2_ws/install/action_tutorials_interfaces:/home/tj/ros2_ws/install/cpp_srvcli:/home/tj/ros2_ws/install/cpp_pubsub:/home/tj/ros2_ws/install/tutorial_interfaces:/home/tj/ros2_ws/install/turtlesim:/home/tj/ros2_ws/install/polygon_plugins:/home/tj/ros2_ws/install/polygon_base:/home/tj/ros2_ws/install/my_package:/home/tj/ros2_ws/install/more_interfaces:/home/tj/ros2_ws/install/custom_action_interfaces:/home/tj/ros2_ws/install/cpp_parameters:/home/tj/ros2_ws/install/python_parameters:/home/tj/ros2_ws/install/py_srvcli:/home/tj/ros2_ws/install/py_pubsub:/opt/ros/humble LD_LIBRARY_PATH=/home/tj/ros2_ws/install/action_tutorials_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tj/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tj/ros2_ws/build/action_tutorials_cpp -- -j8 -l8

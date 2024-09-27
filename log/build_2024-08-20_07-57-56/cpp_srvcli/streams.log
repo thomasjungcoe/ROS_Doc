@@ -1,0 +1,42 @@
+[0.027s] Invoking command in '/home/tj/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/home/tj/ros2_ws/install/tutorial_interfaces:/home/tj/ros2_ws/install/cpp_srvcli:/home/tj/ros2_ws/install/cpp_pubsub:/home/tj/ros2_ws/install/turtlesim:/home/tj/ros2_ws/install/my_package:/home/tj/ros2_ws/install/py_srvcli:/home/tj/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/tj/ros2_ws/build/cpp_srvcli -- -j8 -l8
+[0.069s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.324s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.410s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.416s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.430s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.463s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.490s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.583s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.591s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.755s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.882s] -- Found tutorial_interfaces: 0.0.0 (/home/tj/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[1.068s] -- Configuring done
+[1.111s] -- Generating done
+[1.117s] -- Build files have been written to: /home/tj/ros2_ws/build/cpp_srvcli
+[1.149s] [35m[1mConsolidate compiler generated dependencies of target client[0m
+[1.149s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[1.257s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[1.257s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[2.136s] [01m[K/home/tj/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kexample_interfaces/srv/add_two_ints.hpp: No such file or directory
+[2.137s]     2 | #include [01;31m[K"example_interfaces/srv/add_two_ints.hpp"[m[K
+[2.137s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.138s] compilation terminated.
+[2.142s] gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/add_two_ints_client.cpp.o] Error 1
+[2.143s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+[2.143s] gmake[1]: *** Waiting for unfinished jobs....
+[5.553s] [01m[K/home/tj/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[5.553s] [01m[K/home/tj/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:22:45:[m[K [01;31m[Kerror: [m[K‘[01m[KAddTwoInts[m[K’ is not a member of ‘[01m[Ktutorial_interfaces::srv[m[K’; did you mean ‘[01m[KAddThreeInts[m[K’?
+[5.553s]    22 |   rclcpp::Service<tutorial_interfaces::srv::[01;31m[KAddTwoInts[m[K>::SharedPtr service =
+[5.553s]       |                                             [01;31m[K^~~~~~~~~~[m[K
+[5.553s]       |                                             [32m[KAddThreeInts[m[K
+[5.553s] [01m[K/home/tj/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:22:55:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.553s]    22 |   rclcpp::Service<tutorial_interfaces::srv::AddTwoInts[01;31m[K>[m[K::SharedPtr service =
+[5.553s]       |                                                       [01;31m[K^[m[K
+[5.553s] [01m[K/home/tj/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:22:68:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kservice[m[K’
+[5.553s]    22 | pp::Service<tutorial_interfaces::srv::AddTwoInts>::SharedPtr [01;31m[Kservice[m[K =
+[5.553s]       |                                                              [01;31m[K^~~~~~~[m[K
+[5.554s] 
+[6.093s] gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/add_two_ints_server.cpp.o] Error 1
+[6.094s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/server.dir/all] Error 2
+[6.094s] gmake: *** [Makefile:146: all] Error 2
+[6.098s] Invoked command in '/home/tj/ros2_ws/build/cpp_srvcli' returned '2': CMAKE_PREFIX_PATH=/home/tj/ros2_ws/install/tutorial_interfaces:/home/tj/ros2_ws/install/cpp_srvcli:/home/tj/ros2_ws/install/cpp_pubsub:/home/tj/ros2_ws/install/turtlesim:/home/tj/ros2_ws/install/my_package:/home/tj/ros2_ws/install/py_srvcli:/home/tj/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/tj/ros2_ws/build/cpp_srvcli -- -j8 -l8
